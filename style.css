@@ -1,0 +1,55 @@
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px){
+
+    /* Header */
+    .header{
+        padding: 10px 5%;
+    }
+
+    .azert{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav h1{
+        font-size: 16px;
+    }
+
+    #iconUser{
+        width: 35px;
+    }
+
+    /* Hero */
+    .hero{
+        height: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero-title{
+        font-size: 24px;
+    }
+
+    .search-box{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search-box input{
+        width: 100%;
+    }
+
+    .search-box button{
+        width: 100%;
+    }
+
+    /* Cards */
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
